@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  flex: 1;
+}
+
+button,
+input {
+  font: inherit;
+}

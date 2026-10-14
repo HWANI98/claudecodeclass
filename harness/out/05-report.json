@@ -1,0 +1,147 @@
+{
+  "gate": "G5",
+  "screen": null,
+  "ok": true,
+  "core_rule_failed": false,
+  "return_to": null,
+  "at": "2026-10-14T07:12:32.648Z",
+  "results": [
+    {
+      "code": "ROUTE-FILES",
+      "ok": true,
+      "message": "화면 파일 4개 있음"
+    },
+    {
+      "code": "ROUTE-DEVDEPS",
+      "ok": true,
+      "message": "테스트 의존성 있음"
+    },
+    {
+      "code": "ROUTE-DEPS",
+      "ok": true,
+      "message": "app/node_modules 있음"
+    },
+    {
+      "code": "ROUTE-COUNT",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/g2/routes.test.ts"
+    },
+    {
+      "code": "ROUTE-PATHS",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/g2/routes.test.ts"
+    },
+    {
+      "code": "ROUTE-PLANS",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/g2/routes.test.ts"
+    },
+    {
+      "code": "ROUTE-APP",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/g2/routes.test.ts"
+    },
+    {
+      "code": "TOKEN-CSS-HEADER",
+      "ok": true,
+      "message": "첫 줄 자동 생성 표시"
+    },
+    {
+      "code": "TOKEN-CSS-COUNT",
+      "ok": true,
+      "message": "CSS 변수 86개 / tokens.json 86개"
+    },
+    {
+      "code": "TOKEN-CSS-VALUE",
+      "ok": true,
+      "message": "모든 변수 값 일치"
+    },
+    {
+      "code": "TOKEN-CSS-EXTRA",
+      "ok": true,
+      "message": "추가 변수 없음"
+    },
+    {
+      "code": "TOKEN-CSS-TEXTSTYLE",
+      "ok": true,
+      "message": "텍스트 스타일 15개 / tokens.json 15개"
+    },
+    {
+      "code": "BUILD-VITE",
+      "ok": true,
+      "message": "vite build 0"
+    },
+    {
+      "code": "LINT-TSC",
+      "ok": true,
+      "message": "tsc --noEmit 0"
+    },
+    {
+      "code": "LINT-FMT",
+      "ok": true,
+      "message": "oxfmt --check 0"
+    },
+    {
+      "code": "TOKEN-SCAN",
+      "ok": true,
+      "message": "토큰 밖 값 0건"
+    },
+    {
+      "code": "PRD-PRICE-STRIKE-SRC",
+      "ok": true,
+      "message": "취소선 코드 0건"
+    },
+    {
+      "code": "PRD-APPLY-VALID",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/apply.test.ts"
+    },
+    {
+      "code": "PRD-COMPLETE-MATCH",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/complete.test.ts"
+    },
+    {
+      "code": "PII-PHONE",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/complete.test.ts"
+    },
+    {
+      "code": "PII-NAME-MASK",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/complete.test.ts"
+    },
+    {
+      "code": "PRD-PRICE",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/detail.test.ts"
+    },
+    {
+      "code": "PRD-THROTTLE",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/detail.test.ts"
+    },
+    {
+      "code": "PRD-COUNT",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/plans.test.ts"
+    },
+    {
+      "code": "PRD-TAG",
+      "ok": true,
+      "message": "통과",
+      "file": "checks/prd/plans.test.ts"
+    }
+  ]
+}
