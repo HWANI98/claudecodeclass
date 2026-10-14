@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+app/dist/
 
 # Figma Make 내보내기에 실제 폰트 없이 LFS 포인터만 들어 있음
 reference/make-export/public/fonts/Pretendard-Bold.woff2
