@@ -1,0 +1,195 @@
+/* AUTO-GENERATED from docs/tokens.json — DO NOT EDIT */
+:root {
+  --gray-950: #000000;
+  --gray-900: #181A1B;
+  --gray-800: #2D2D2D;
+  --gray-600: #66707A;
+  --gray-500: #878787;
+  --gray-400: #B7BDC4;
+  --gray-300: #D9DCDF;
+  --gray-200: #EFF1F3;
+  --gray-100: #F7F7F7;
+  --gray-0: #FFFFFF;
+  --pink-500: #FF2E98;
+  --pink-600: #E6007E;
+  --pink-50: #FFF5FA;
+  --pink-25: #FFF8F5;
+  --red-500: #E30036;
+  --red-50: #FFF0F3;
+  --black-10: #0000001A;
+  --brand-gray: #6B6B6B;
+  --brand-red: #A50034;
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-600);
+  --text-tertiary: var(--gray-500);
+  --text-on-dark: var(--gray-0);
+  --text-accent: var(--pink-500);
+  --text-error: var(--red-500);
+  --text-placeholder: var(--gray-400);
+  --text-on-disabled: var(--gray-600);
+  --bg-surface: var(--gray-0);
+  --bg-default: var(--gray-100);
+  --bg-subtle: var(--gray-200);
+  --bg-inverse: var(--gray-800);
+  --bg-accent-subtle: var(--pink-50);
+  --bg-error-subtle: var(--red-50);
+  --border-default: var(--gray-300);
+  --border-subtle: var(--gray-200);
+  --border-strong: var(--gray-900);
+  --border-divider: var(--black-10);
+  --border-focus: var(--pink-500);
+  --border-error: var(--red-500);
+  --fill-primary: var(--pink-500);
+  --fill-secondary: var(--gray-900);
+  --fill-tertiary: var(--gray-200);
+  --fill-disabled: var(--gray-300);
+  --fill-disabled-strong: var(--gray-400);
+  --fill-primary-hover: var(--pink-600);
+  --icon-default: var(--gray-600);
+  --icon-strong: var(--gray-900);
+  --border-medium: var(--gray-600);
+  --surface-default: var(--gray-0);
+  --icon-accent: var(--pink-500);
+  --icon-on-dark: var(--gray-0);
+  --icon-disabled: var(--gray-300);
+  --icon-error: var(--red-500);
+  --icon-primary: var(--gray-950);
+  --brand-primary: var(--pink-500);
+  --font-family-family-font: "Pretendard Variable";
+  --font-size-heading-h1: 32px;
+  --font-size-heading-h2: 28px;
+  --font-size-heading-h3: 24px;
+  --font-size-heading-h4: 20px;
+  --font-size-subtitle: 18px;
+  --font-size-body: 16px;
+  --font-size-body-small: 14px;
+  --font-size-caption: 13px;
+  --font-size-caption-mini: 10px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-80: 80px;
+  --spacing-58: 58px;
+  --spacing-390: 390px;
+  --spacing-10: 10px;
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-32: 32px;
+  --radius-full: 9999px;
+}
+
+.ts-heading-h1 {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-heading-h1);
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+.ts-heading-h2 {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-heading-h2);
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+.ts-heading-h3 {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-heading-h3);
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+.ts-heading-h4 {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-heading-h4);
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+.ts-subtitle-bold {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-subtitle);
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+.ts-subtitle-default {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-subtitle);
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+.ts-body-strong {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-body);
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.ts-body-medium {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-body);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.ts-body-small-strong {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-body-small);
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+.ts-body-small-medium {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-body-small);
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0;
+}
+.ts-caption-bold {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-caption);
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+.ts-caption-medium {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-caption);
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+.ts-caption-small-bold {
+  font-family: var(--font-family-family-font);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+.ts-caption-small {
+  font-family: var(--font-family-family-font);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+.ts-caption-mini {
+  font-family: var(--font-family-family-font);
+  font-size: var(--font-size-caption-mini);
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0;
+}
